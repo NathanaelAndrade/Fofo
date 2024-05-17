@@ -1,0 +1,34 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #72afe4;
+    font-family: Arial, sans-serif;
+}
+
+img{
+    width: 100px;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.envelope {
+    font-size: 100px;
+    cursor: pointer;
+}
+
+.message {
+    display: none;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #112977;
+    max-width: 80%; /* Define a largura máxima da mensagem */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
